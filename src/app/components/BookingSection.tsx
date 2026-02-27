@@ -170,22 +170,6 @@ export function BookingSection() {
             </div>
           </div>
         </div>
-
-        {/* Trust Indicators */}
-        <div className="mt-12 flex flex-wrap justify-center gap-8">
-          <div className="text-center">
-            <div className="mb-2 text-2xl font-bold text-[#00D66B]">500+</div>
-            <div className="text-sm text-gray-600">Calls Completed</div>
-          </div>
-          <div className="text-center">
-            <div className="mb-2 text-2xl font-bold text-[#0080FF]">4.9/5</div>
-            <div className="text-sm text-gray-600">Average Rating</div>
-          </div>
-          <div className="text-center">
-            <div className="mb-2 text-2xl font-bold text-[#FFD700]">15 min</div>
-            <div className="text-sm text-gray-600">Avg Response Time</div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -18,14 +18,6 @@ export function TestimonialsSection() {
       subject: 'Algebra & Chemistry',
       improvement: '2 Grade Levels Up',
     },
-    {
-      name: 'Dr. Patel',
-      role: 'Parent & University Professor',
-      content: 'As an educator myself, I appreciate the engineering approach. This is what modern education should look like—structured, measurable, and personalized.',
-      rating: 5,
-      subject: 'SAT Prep & English',
-      improvement: '1380 to 1510',
-    },
   ];
 
   return (

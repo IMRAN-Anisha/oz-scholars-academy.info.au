@@ -53,16 +53,16 @@ export function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="rounded-xl bg-white p-4 shadow-md">
-                <div className="text-3xl font-bold text-[#0080FF]">1:4</div>
+                <div className="text-3xl font-bold text-[#0080FF]">4+</div>
+                <div className="text-sm text-gray-600">Years of Teaching Experience</div>
+              </div>
+              <div className="rounded-xl bg-white p-4 shadow-md">
+                <div className="text-3xl font-bold text-[#00D66B]">1:4</div>
                 <div className="text-sm text-gray-600">Student Ratio</div>
               </div>
               <div className="rounded-xl bg-white p-4 shadow-md">
-                <div className="text-3xl font-bold text-[#00D66B]">3 Yrs</div>
-                <div className="text-sm text-gray-600">Avg Improvement</div>
-              </div>
-              <div className="rounded-xl bg-white p-4 shadow-md">
-                <div className="text-3xl font-bold text-[#FFD700]">2014</div>
-                <div className="text-sm text-gray-600">Est. Founded</div>
+                <div className="text-3xl font-bold text-[#FFD700]">100%</div>
+                <div className="text-sm text-gray-600">Data Driven</div>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-black px-4 py-2 text-sm text-white shadow-md">
               <div className="h-2 w-2 animate-pulse rounded-full bg-[#00FF00]"></div>
-              Founded by a Software Engineer
+              Founded by a Software Engineering Student
             </div>
             
             <div className="absolute -inset-4 rounded-2xl bg-gradient-to-r from-[#0080FF]/20 via-[#FFD700]/20 to-[#00D66B]/20 opacity-75 blur-3xl"></div>

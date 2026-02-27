@@ -3,9 +3,9 @@ import { Check, Zap, Crown, Sparkles } from 'lucide-react';
 export function PricingSection() {
   const plans = [
     {
-      name: 'Base',
+      name: '.',
       icon: Zap,
-      price: '499',
+      price: '.',
       color: '#0080FF',
       bgColor: 'from-[#0080FF]/10 to-[#0080FF]/5',
       borderColor: 'border-[#0080FF]',
@@ -19,9 +19,9 @@ export function PricingSection() {
       ],
     },
     {
-      name: 'Pro',
+      name: '.',
       icon: Crown,
-      price: '899',
+      price: '.',
       color: '#00D66B',
       bgColor: 'from-[#00D66B]/10 to-[#00D66B]/5',
       borderColor: 'border-[#00D66B]',
@@ -30,25 +30,21 @@ export function PricingSection() {
       features: [
         'Bi-weekly 1-on-1 Sessions',
         'Advanced Analytics Dashboard',
-        'Priority Support (24/7)',
         'Custom Study Plans',
         'Weekly Progress Reports',
         'Parent Portal Access',
       ],
     },
     {
-      name: 'Elite',
+      name: '.',
       icon: Sparkles,
-      price: '1499',
+      price: '.',
       color: '#FFD700',
       bgColor: 'from-[#FFD700]/10 to-[#FFD700]/5',
       borderColor: 'border-[#FF8C00]',
       buttonBg: 'bg-gradient-to-r from-[#FFD700] to-[#FF8C00] hover:from-[#FFC700] hover:to-[#FF7C00]',
       features: [
-        'Daily 1-on-1 Sessions',
-        'Real-time Monitoring System',
         'Dedicated Success Coach',
-        'AI-Optimized Learning Path',
         'Daily Progress Updates',
         'College Prep Strategy',
         'Exam Prep Workshops',
