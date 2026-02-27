@@ -1,11 +1,14 @@
+🌟 Oz Scholars Academy:  Systems-Driven Education
 
-  # Landing page design for Oz Scholars Academy
+Academic Success, Engineered.
+Oz Scholars Academy provides data-driven tutoring with real-time tracking, systematic scheduling, and optimized learning paths designed to help every student achieve their full potential.
 
-  This is a code bundle for Landing page design for Oz Scholars Academy. The original project is available at https://www.figma.com/design/b4XYxdEPlkxptqly9Epcy1/Landing-page-design-for-Oz-Scholars-Academy.
+🎯 Book a Session
 
-  ## Running the code
+Book a 20-Min Strategy Call:  Analyze your student’s needs and design a custom learning system
 
-  Run `npm i` to install the dependencies.
+📌 Contact
 
-  Run `npm run dev` to start the development server.
-  
+Email: ozscholarsacademy@gmail.com
+
+© 2026 Oz Scholars Academy. All rights reserved.
