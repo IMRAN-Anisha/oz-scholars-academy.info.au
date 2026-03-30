@@ -1,4 +1,4 @@
-import logo from 'figma:asset/d7576a8e901422a82214d0261d61e2d721fb2903.png';
+import logo from "../../assets/Logo.png";
 
 export function Navbar() {
   return (

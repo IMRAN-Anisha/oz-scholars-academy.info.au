@@ -80,24 +80,23 @@ export function DiscountSection() {
               ></div>
 
               <div className="relative">
-                {/* Icon */}
+              {/* Icon + Badge Row */}
+              <div className="mb-4 flex items-center gap-3">
                 <div
-                  className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-xl"
+                  className="inline-flex h-14 w-14 shrink-0 items-center justify-center rounded-xl"
                   style={{ backgroundColor: `${discount.color}20` }}
                 >
                   <discount.icon className="h-7 w-7" style={{ color: discount.color }} />
                 </div>
 
-                {/* Discount Badge - Centered */}
-                <div className="mb-3 flex justify-center">
-                  <div
-                    className="inline-block rounded-full px-4 py-1 text-sm font-bold"
-                    style={{ backgroundColor: `${discount.color}20`, color: discount.color }}
-                  >
-                    {discount.discount}
-                  </div>
+                {/* Discount Badge */}
+                <div
+                  className="inline-block rounded-full px-4 py-1 text-sm font-bold"
+                  style={{ backgroundColor: `${discount.color}20`, color: discount.color }}
+                >
+                  {discount.discount}
                 </div>
-
+              </div>
                 {/* Title */}
                 <h3 className="mb-2 text-xl font-bold text-white">{discount.title}</h3>
 

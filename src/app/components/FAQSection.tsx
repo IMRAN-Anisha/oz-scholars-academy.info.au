@@ -13,17 +13,7 @@ export function FAQSection() {
     {
       question: 'What subjects do you cover?',
       answer:
-        'We specialize in Mathematics (all levels), English, Computer Science, Selective School Exam preparation, and ATAR-focused subjects. Our educators are 95+ ATAR achievers with deep subject expertise and are trained in our systematic approach to learning optimization.',
-    },
-    {
-      question: "Can I see my child's progress in real-time?",
-      answer:
-        "Yes! Every family gets access to our student dashboard that shows weekly task completion rates, time spent on each subject, achievement badges, upcoming sessions, and performance trends. We believe in full transparency - you shouldn't have to guess how your child is doing.",
-    },
-    {
-      question: "What if my child doesn't like the system?",
-      answer:
-        "We have a 30-day progress guarantee. If you don't see measurable improvement in organization, study habits, and academic confidence within the first month, we'll refund your first month's tuition. We also offer flexible scheduling and can adjust our approach based on your student's learning style.",
+        'We specialize in Mathematics (all levels), English, Computer Science, Selective School Exam preparation, and ATAR-focused subjects. Our educators are 95+ ATAR achievers with deep subject expertise and are trained in our systematic approach to learning optimistion.',
     },
     {
       question: 'Do you offer catch-up lessons if my child misses a session?',
@@ -33,18 +23,9 @@ export function FAQSection() {
     {
       question: 'What are the end-of-semester exam fees?',
       answer:
-        "Comprehensive exam preparation (including practice tests, extended sessions, strategy consultation, and post-exam review) costs $150-$350 per subject depending on your tier. You'll be notified 4 weeks in advance with exact pricing. These fees are optional but highly recommended for students preparing for major assessments.",
+        "Comprehensive exam preparation (including practice tests, extended sessions, strategy consultation, and post-exam review) costs $150-$350 per subject depending on your tier. You'll be notified 2 weeks in advance with exact pricing. These fees are optional but highly recommended for students preparing for major assessments.",
     },
-    {
-      question: 'Are there any discounts available?',
-      answer:
-        'Yes! We offer: 50% off your first lesson, 15% sibling discount, 10% referral credit, 10% multi-subject discount (2+ subjects), and 12% early bird discount for full upfront payment. Discounts can be combined up to a maximum of 30% total savings.',
-    },
-    {
-      question: 'How does the 20-minute strategy call work?',
-      answer:
-        "Book a free 20-minute call with our team to discuss your student's current challenges, academic goals, and how our system can help. We'll assess their needs, explain our approach, and recommend a personalized learning plan. There's no pressure - just honest advice about whether we're the right fit.",
-    },
+  
     {
       question: "What's your cancellation policy?",
       answer:

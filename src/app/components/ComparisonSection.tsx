@@ -2,7 +2,6 @@ import { X, Check, TrendingDown, TrendingUp } from 'lucide-react';
 
 export function ComparisonSection() {
   const traditional = [
-    { label: 'Fixed Schedules', inefficient: true },
     { label: 'Generic Curriculum', inefficient: true },
     { label: 'Delayed Feedback', inefficient: true },
     { label: 'Limited Tracking', inefficient: true },
@@ -11,7 +10,6 @@ export function ComparisonSection() {
   ];
 
   const ozScholars = [
-    { label: 'Dynamic Scheduling', optimized: true },
     { label: 'Personalized Paths', optimized: true },
     { label: 'Real-Time Analytics', optimized: true },
     { label: 'Automated Tracking', optimized: true },

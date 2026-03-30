@@ -3,9 +3,9 @@ import { Check, Zap, Crown, Sparkles } from 'lucide-react';
 export function PricingSection() {
   const plans = [
     {
-      name: 'Base',
+      name: 'Online Tutoring',
       icon: Zap,
-      price: '499',
+      price: '50',
       color: '#0080FF',
       bgColor: 'from-[#0080FF]/10 to-[#0080FF]/5',
       borderColor: 'border-[#0080FF]',
@@ -13,45 +13,42 @@ export function PricingSection() {
       features: [
         'Weekly 1-on-1 Sessions',
         'Basic Progress Tracking',
-        'Email Support',
-        'Study Materials Access',
+        'Study Materials Provided',
+        'School Support Provided',
         'Monthly Progress Report',
       ],
     },
     {
-      name: 'Pro',
+      name: 'Group In Person Sessions',
       icon: Crown,
-      price: '899',
+      price: '45',
       color: '#00D66B',
       bgColor: 'from-[#00D66B]/10 to-[#00D66B]/5',
       borderColor: 'border-[#00D66B]',
       buttonBg: 'bg-[#00D66B] hover:bg-[#00B857]',
       popular: true,
       features: [
-        'Bi-weekly 1-on-1 Sessions',
+        'Weekly Group Sessions',
         'Advanced Analytics Dashboard',
-        'Priority Support (24/7)',
-        'Custom Study Plans',
+        'Booklets, Homework, Mock Exams',
+        'Individual Study Plans',
         'Weekly Progress Reports',
-        'Parent Portal Access',
       ],
     },
     {
-      name: 'Elite',
+      name: 'High Value Hybrid Approach',
       icon: Sparkles,
-      price: '1499',
+      price: '85',
       color: '#FFD700',
       bgColor: 'from-[#FFD700]/10 to-[#FFD700]/5',
       borderColor: 'border-[#FF8C00]',
       buttonBg: 'bg-gradient-to-r from-[#FFD700] to-[#FF8C00] hover:from-[#FFC700] hover:to-[#FF7C00]',
       features: [
-        'Daily 1-on-1 Sessions',
-        'Real-time Monitoring System',
+        '1 on 1 Sessions Snline with 1 Group Lesson in Person',
         'Dedicated Success Coach',
-        'AI-Optimized Learning Path',
         'Daily Progress Updates',
-        'College Prep Strategy',
-        'Exam Prep Workshops',
+        'Indivisual Study Plans',
+        'Weekly Progress Reports',
       ],
     },
   ];
@@ -158,10 +155,7 @@ export function PricingSection() {
                 <span className="text-sm font-semibold text-gray-700">✓ Cancel Anytime</span>
               </div>
               <div className="rounded-lg bg-white px-4 py-2 shadow">
-                <span className="text-sm font-semibold text-gray-700">✓ Money-Back Guarantee</span>
-              </div>
-              <div className="rounded-lg bg-white px-4 py-2 shadow">
-                <span className="text-sm font-semibold text-gray-700">✓ Free Trial Available</span>
+                <span className="text-sm font-semibold text-gray-700">✓ Discounted Trial Available</span>
               </div>
             </div>
           </div>

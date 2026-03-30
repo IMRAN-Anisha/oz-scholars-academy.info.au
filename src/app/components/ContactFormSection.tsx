@@ -140,7 +140,6 @@ export function ContactFormSection() {
             <Mail className="mx-auto mb-2 h-8 w-8 text-[#0080FF]" />
             <div className="font-semibold text-gray-900">Email Us</div>
             <a
-              href="mailto:ozscholarsacademy@gmail.com"
               className="text-sm text-gray-600 transition-colors hover:text-[#0080FF]"
             >
               ozscholarsacademy@gmail.com

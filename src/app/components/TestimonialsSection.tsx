@@ -63,27 +63,27 @@ export function TestimonialsSection() {
 
 const testimonials = [
   {
-    name: 'Sarah Chen',
-    role: 'Parent of High School Junior',
+    name: 'Precious Madiam',
+    role: 'Year 11 Student (2026)',
     content: 'The dashboard alone changed everything. I can see exactly what my daughter is working on in real-time. No more guessing games about homework.',
     rating: 5,
-    subject: 'Mathematics & Physics',
+    subject: 'Mathematics Methods & English ATAR',
     improvement: 'B+ to A-',
   },
   {
-    name: 'Michael Rodriguez',
-    role: 'Parent of 8th Grader',
+    name: 'Michelle Jess',
+    role: 'Parent of 6th Grader',
     content: 'Finally, a tutoring service that treats education like a system. The scheduled tracking and data reports make it easy to stay involved without micromanaging.',
     rating: 5,
-    subject: 'Algebra & Chemistry',
+    subject: 'GATE Preparation & Mathematics',
     improvement: '2 Grade Levels Up',
   },
   {
-    name: 'Dr. Patel',
-    role: 'Parent & University Professor',
+    name: 'Lesleigh Fawcett',
+    role: 'Parent of YR 12 Student',
     content: 'As an educator myself, I appreciate the engineering approach. This is what modern education should look like—structured, measurable, and personalized.',
     rating: 5,
-    subject: 'SAT Prep & English',
-    improvement: '1380 to 1510',
+    subject: 'Mathematics Applications',
+    improvement: 'B to A',
   },
 ];
