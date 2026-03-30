@@ -102,9 +102,9 @@ export function PricingSection() {
                   <div className="mb-6">
                     <div className="flex items-baseline gap-2">
                       <span className="text-5xl font-bold text-black">${plan.price}</span>
-                      <span className="text-gray-600">/month</span>
+                      <span className="text-gray-600">week</span>
                     </div>
-                    <p className="mt-2 text-sm text-gray-500">Per student, billed monthly</p>
+                    <p className="mt-2 text-sm text-gray-500">Per student, billed weekly</p>
                   </div>
 
                   <button
@@ -115,7 +115,7 @@ export function PricingSection() {
 
                   <div className="space-y-3">
                     <div className="mb-4 text-sm font-semibold uppercase tracking-wide text-gray-500">
-                      What's Included
+                      What's Included?
                     </div>
                     {plan.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-start gap-3">
