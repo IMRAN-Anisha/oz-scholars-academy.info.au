@@ -13,7 +13,7 @@ export function BookingSection() {
   }, []);
 
   return (
-    <section className="bg-gradient-to-br from-[#0080FF]/5 via-white to-[#00D66B]/5 px-6 py-20 md:py-32">
+    <section id="booking" className="bg-gradient-to-br from-[#0080FF]/5 via-white to-[#00D66B]/5 px-6 py-20 md:py-32">
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
         <div className="mb-16 text-center">

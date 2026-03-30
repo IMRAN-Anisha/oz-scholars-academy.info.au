@@ -6,23 +6,23 @@ export function DiscountSection() {
       icon: Zap,
       title: 'First Lesson',
       discount: '50% OFF',
-      description: 'Try our system risk-free with half-price first session',
+      description: 'Try our system risk-free with half-price first session, (unstackable discount)',
       color: '#FF0040',
       bgColor: 'from-[#FF0040]/10',
     },
     {
       icon: Users,
       title: 'Sibling Discount',
-      discount: '15% OFF',
-      description: 'Save 15% when enrolling multiple children',
+      discount: '10% OFF',
+      description: 'Save 10% when enrolling multiple children',
       color: '#0080FF',
       bgColor: 'from-[#0080FF]/10',
     },
     {
       icon: Gift,
       title: 'Referral Bonus',
-      discount: '10% OFF',
-      description: 'Refer a friend and both get 10% off next month',
+      discount: '$20 OFF',
+      description: 'Refer a friend and both get $20 voucher towards semester fee',
       color: '#00D66B',
       bgColor: 'from-[#00D66B]/10',
     },
@@ -37,8 +37,8 @@ export function DiscountSection() {
     {
       icon: Percent,
       title: 'Early Bird',
-      discount: '12% OFF',
-      description: 'Pay for full semester upfront and save 12%',
+      discount: '8% OFF',
+      description: 'Pay for full semester upfront and save 8%',
       color: '#FF8C00',
       bgColor: 'from-[#FF8C00]/10',
     },
@@ -119,7 +119,7 @@ export function DiscountSection() {
                 <h4 className="font-bold text-white">Stack Discounts</h4>
               </div>
               <p className="text-sm text-gray-400">
-                Combine multiple discounts up to a maximum of 30% total savings (e.g., First Lesson + Sibling + Multi-Subject = 25% off).
+                Combine multiple discounts up to a maximum of 20% total savings (e.g., Sibling + Multi-Subject = 20% off).
               </p>
             </div>
             <div className="rounded-lg bg-black/50 p-4">
@@ -137,7 +137,7 @@ export function DiscountSection() {
                 <h4 className="font-bold text-white">Catch-Up Policy</h4>
               </div>
               <p className="text-sm text-gray-400">
-                Cancel with 24hr notice = free make-up lesson. Less than 24hr = discounted catch-up rate or pro-rated credit toward next month.
+                Cancel with 24hr notice = free make-up lesson or refunded.
               </p>
             </div>
             <div className="rounded-lg bg-black/50 p-4">
@@ -146,7 +146,7 @@ export function DiscountSection() {
                 <h4 className="font-bold text-white">Referral Program</h4>
               </div>
               <p className="text-sm text-gray-400">
-                When your referral enrolls, you both receive 10% off your next month's tuition. No limit on referrals!
+                When your referral enrolls, you both receive $20 off your semester fee. No limit on referrals!
               </p>
             </div>
           </div>
@@ -157,8 +157,9 @@ export function DiscountSection() {
           <p className="mb-6 text-xl text-gray-300">
             Ready to save while your student succeeds?
           </p>
-          <button className="rounded-xl bg-[#FFD700] px-10 py-4 text-lg font-bold text-black shadow-2xl transition-all hover:scale-105 hover:bg-[#FFA500]">
-            Claim Your First Lesson Discount
+          <button
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="rounded-xl bg-[#FFD700] px-10 py-4 text-lg font-bold text-black shadow-2xl transition-all hover:scale-105 hover:bg-[#FFA500]" > Claim Your First Lesson Discount
           </button>
         </div>
       </div>

@@ -27,9 +27,11 @@ export function HeroSection() {
             <p className="text-xl text-gray-700 md:text-2xl">
               Data-driven tutoring with real-time tracking, systematic scheduling, and optimised learning paths.
             </p>
-            
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
-              <button className="group relative overflow-hidden rounded-xl bg-[#FF0040] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+              <button
+                onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+                className="group relative overflow-hidden rounded-xl bg-[#FF0040] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl"
+              >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   Book 20-Min Strategy Call
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
@@ -37,7 +39,6 @@ export function HeroSection() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#FF0040] to-[#FF3366] opacity-0 transition-opacity group-hover:opacity-100"></div>
               </button>
             </div>
-
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="rounded-xl bg-white p-4 shadow-md">

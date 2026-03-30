@@ -151,7 +151,9 @@ export function SystemProcessSection() {
           <p className="mb-6 text-xl text-gray-700">
             See the system in action with a free assessment.
           </p>
-          <button className="rounded-xl bg-[#FF0040] px-10 py-4 text-lg font-bold text-white shadow-2xl transition-all hover:scale-105 hover:bg-[#FF3366]">
+          <button
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="rounded-xl bg-[#FF0040] px-10 py-4 text-lg font-bold text-white shadow-2xl transition-all hover:scale-105 hover:bg-[#FF3366]">
             Book Your Free Assessment
           </button>
         </div>

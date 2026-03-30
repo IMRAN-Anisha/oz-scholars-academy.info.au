@@ -94,7 +94,10 @@ export function FAQSection() {
           <p className="mb-6 text-gray-600">
             Book a free 20-minute strategy call to discuss your student's needs.
           </p>
-          <button className="rounded-xl bg-[#FF0040] px-8 py-3 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#FF3366]">
+          <button
+            onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
+            className="rounded-xl bg-[#FF0040] px-8 py-3 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#FF3366]"
+          >
             Schedule Your Call
           </button>
         </div>
