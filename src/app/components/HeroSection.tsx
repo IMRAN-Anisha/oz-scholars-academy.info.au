@@ -47,7 +47,7 @@ export function HeroSection() {
               </div>
               <div className="rounded-xl bg-white p-4 shadow-md">
                 <div className="text-3xl font-bold text-[#00D66B]">3 Yrs</div>
-                <div className="text-sm text-gray-600">Min. Teacher Experience</div>
+                <div className="text-sm text-gray-600">Teaching Experience</div>
               </div>
               <div className="rounded-xl bg-white p-4 shadow-md">
                 <div className="text-3xl font-bold text-[#FFD700]">2026</div>

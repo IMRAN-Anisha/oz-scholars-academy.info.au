@@ -64,7 +64,7 @@ export function DiscountSection() {
             Exclusive <span className="text-[#FFD700]">Discounts</span> Available
           </h2>
           <p className="mx-auto max-w-2xl text-xl text-gray-400">
-            We reward commitment, referrals, and multi-student families. Stack discounts up to 30% off.
+            We reward commitment, referrals, and multi-student families. Stack discounts up to 20% off.
           </p>
         </div>
 
