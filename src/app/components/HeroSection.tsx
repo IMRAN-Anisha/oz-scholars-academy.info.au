@@ -25,7 +25,7 @@ export function HeroSection() {
             </h2>
             
             <p className="text-xl text-gray-700 md:text-2xl">
-              Data-driven tutoring with real-time tracking, systematic scheduling, and optimized learning paths.
+              Data-driven tutoring with real-time tracking, systematic scheduling, and optimised learning paths.
             </p>
             
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -41,15 +41,15 @@ export function HeroSection() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="rounded-xl bg-white p-4 shadow-md">
-                <div className="text-3xl font-bold text-[#0080FF]">1:4</div>
+                <div className="text-3xl font-bold text-[#0080FF]">1:6</div>
                 <div className="text-sm text-gray-600">Student Ratio</div>
               </div>
               <div className="rounded-xl bg-white p-4 shadow-md">
                 <div className="text-3xl font-bold text-[#00D66B]">3 Yrs</div>
-                <div className="text-sm text-gray-600">Avg Improvement</div>
+                <div className="text-sm text-gray-600">Min. Teacher Experience</div>
               </div>
               <div className="rounded-xl bg-white p-4 shadow-md">
-                <div className="text-3xl font-bold text-[#FFD700]">2014</div>
+                <div className="text-3xl font-bold text-[#FFD700]">2026</div>
                 <div className="text-sm text-gray-600">Est. Founded</div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export function HeroSection() {
                 <div className="absolute h-2 w-2 animate-ping rounded-full bg-[#00D66B]"></div>
               </div>
               <span className="text-sm text-gray-700">
-                Founded by a software engineering student
+                Founded by a Software Engineering Student
               </span>
             </div>
 

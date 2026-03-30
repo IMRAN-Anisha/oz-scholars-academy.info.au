@@ -11,7 +11,7 @@ export function Footer() {
             <h3 className="mb-4 text-2xl font-bold text-[#FFD700]">Oz Scholars Academy</h3>
             <p className="mb-2 text-sm font-semibold text-gray-300">Systems-Driven Education</p>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Engineering academic success through data-driven tutoring and optimized learning systems.
+              Engineering academic success through data-driven tutoring and optimised learning systems.
             </p>
           </div>
 

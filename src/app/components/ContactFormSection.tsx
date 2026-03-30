@@ -2,40 +2,19 @@ import { useState } from 'react';
 import { Mail, User, MessageSquare, Send, CheckCircle } from 'lucide-react';
 
 export function ContactFormSection() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    
-    // Create mailto link with form data
-    const subject = encodeURIComponent(`Contact from ${formData.name}`);
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
-    );
-    const mailtoLink = `mailto:ozscholarsacademy@gmail.com?subject=${subject}&body=${body}`;
-    
-    // Open email client
-    window.location.href = mailtoLink;
-    
-    // Show success message
-    setIsSubmitted(true);
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
-    }, 3000);
-  };
+    const form = e.currentTarget;
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
+    fetch("https://formbold.com/s/94dQj", {
+      method: "POST",
+      body: new FormData(form),
+    }).then(() => {
+      setIsSubmitted(true);
+      form.reset();
+      setTimeout(() => setIsSubmitted(false), 4000);
     });
   };
 
@@ -61,11 +40,11 @@ export function ContactFormSection() {
               <CheckCircle className="mx-auto mb-4 h-16 w-16 text-[#00D66B]" />
               <h3 className="mb-2 text-2xl font-bold text-black">Message Sent!</h3>
               <p className="text-gray-600">
-                Your email client should open shortly. We'll respond within 24 hours.
+                Thanks for reaching out! We'll respond within 24 hours.
               </p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-6">
               {/* Name Field */}
               <div>
                 <label htmlFor="name" className="mb-2 flex items-center gap-2 text-sm font-semibold text-gray-700">
@@ -76,8 +55,6 @@ export function ContactFormSection() {
                   type="text"
                   id="name"
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
                   required
                   className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-3 text-gray-900 transition-all focus:border-[#0080FF] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#0080FF]/20"
                   placeholder="Enter your full name"
@@ -94,11 +71,25 @@ export function ContactFormSection() {
                   type="email"
                   id="email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
                   required
                   className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-3 text-gray-900 transition-all focus:border-[#00D66B] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#00D66B]/20"
                   placeholder="your.email@example.com"
+                />
+              </div>
+
+              {/* Subject Field */}
+              <div>
+                <label htmlFor="subject" className="mb-2 flex items-center gap-2 text-sm font-semibold text-gray-700">
+                  <MessageSquare className="h-4 w-4 text-[#FF8C00]" />
+                  Subject
+                </label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  required
+                  className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-3 text-gray-900 transition-all focus:border-[#FF8C00] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#FF8C00]/20"
+                  placeholder="What is this about?"
                 />
               </div>
 
@@ -111,12 +102,23 @@ export function ContactFormSection() {
                 <textarea
                   id="message"
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                   rows={6}
                   className="w-full resize-none rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-3 text-gray-900 transition-all focus:border-[#FFD700] focus:bg-white focus:outline-none focus:ring-2 focus:ring-[#FFD700]/20"
                   placeholder="Tell us about your student's needs, goals, or any questions you have..."
+                />
+              </div>
+
+              {/* File Upload */}
+              <div>
+                <label htmlFor="file" className="mb-2 flex items-center gap-2 text-sm font-semibold text-gray-700">
+                  📎 Attachment <span className="font-normal text-gray-400">(optional)</span>
+                </label>
+                <input
+                  type="file"
+                  id="file"
+                  name="file"
+                  className="w-full rounded-xl border-2 border-gray-200 bg-gray-50 px-4 py-3 text-gray-600 file:mr-4 file:rounded-lg file:border-0 file:bg-[#0080FF]/10 file:px-3 file:py-1 file:text-sm file:font-semibold file:text-[#0080FF] hover:file:bg-[#0080FF]/20"
                 />
               </div>
 
@@ -139,11 +141,7 @@ export function ContactFormSection() {
           <div className="rounded-xl border-2 border-gray-200 bg-white p-6 text-center shadow-md">
             <Mail className="mx-auto mb-2 h-8 w-8 text-[#0080FF]" />
             <div className="font-semibold text-gray-900">Email Us</div>
-            <a
-              className="text-sm text-gray-600 transition-colors hover:text-[#0080FF]"
-            >
-              ozscholarsacademy@gmail.com
-            </a>
+            <span className="text-sm text-gray-600">ozscholarsacademy@gmail.com</span>
           </div>
           <div className="rounded-xl border-2 border-gray-200 bg-white p-6 text-center shadow-md">
             <MessageSquare className="mx-auto mb-2 h-8 w-8 text-[#00D66B]" />

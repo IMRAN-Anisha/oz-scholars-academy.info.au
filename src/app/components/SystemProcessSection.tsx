@@ -28,7 +28,7 @@ export function SystemProcessSection() {
       title: 'Structured Lessons',
       subtitle: 'Systematic Delivery',
       description:
-        "Every session follows a proven structure: review previous concepts, introduce new material, guided practice, and independent work. No more random tutoring - every minute is optimized.",
+        "Every session follows a proven structure: review previous concepts, introduce new material, guided practice, and independent work. No more random tutoring - every minute is optimised.",
       color: '#FFD700',
       metrics: ['Weekly lesson plans', 'Progress checkpoints', 'Homework assignments'],
     },
@@ -141,7 +141,7 @@ export function SystemProcessSection() {
             <div className="text-gray-700">Track every metric, see every improvement</div>
           </div>
           <div className="rounded-2xl border-2 border-[#00D66B] bg-gradient-to-br from-[#00D66B]/5 to-transparent p-6 text-center">
-            <div className="mb-2 text-4xl font-bold text-[#00D66B]">Optimized</div>
+            <div className="mb-2 text-4xl font-bold text-[#00D66B]">Optimised</div>
             <div className="text-gray-700">Iterate and improve week after week</div>
           </div>
         </div>

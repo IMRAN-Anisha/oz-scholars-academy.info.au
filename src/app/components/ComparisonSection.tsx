@@ -10,11 +10,11 @@ export function ComparisonSection() {
   ];
 
   const ozScholars = [
-    { label: 'Personalized Paths', optimized: true },
-    { label: 'Real-Time Analytics', optimized: true },
-    { label: 'Automated Tracking', optimized: true },
-    { label: 'Instant Insights', optimized: true },
-    { label: 'AI-Optimized Learning', optimized: true },
+    { label: 'Personalized Paths', optimised: true },
+    { label: 'Real-Time Analytics', optimised: true },
+    { label: 'Automated Tracking', optimised: true },
+    { label: 'Instant Insights', optimised: true },
+    { label: 'AI-Optimised Learning', optimised: true },
   ];
 
   return (
@@ -29,7 +29,7 @@ export function ComparisonSection() {
             The "Effective School" Advantage
           </h2>
           <p className="mx-auto max-w-2xl text-xl text-gray-600">
-            Traditional education vs. systems-optimized learning. See the difference.
+            Traditional education vs. systems-optimised learning. See the difference.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ export function ComparisonSection() {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Oz Scholars Academy</h3>
-                  <p className="text-sm text-green-100">Systems-Optimized Learning</p>
+                  <p className="text-sm text-green-100">Systems-Optimised Learning</p>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export function ComparisonSection() {
               <div className="mb-4 rounded-lg bg-green-50 p-4">
                 <div className="flex items-center gap-2 text-[#00D66B]">
                   <Check className="h-5 w-5" />
-                  <span className="font-semibold">Optimized Excellence</span>
+                  <span className="font-semibold">Optimised Excellence</span>
                 </div>
               </div>
 
@@ -116,7 +116,7 @@ export function ComparisonSection() {
 
               <div className="mt-6 rounded-lg bg-green-100 p-4 text-center">
                 <p className="text-sm font-semibold text-[#00D66B]">
-                  Trackable, measurable, and continuously optimized
+                  Trackable, measurable, and continuously optimised
                 </p>
               </div>
             </div>
