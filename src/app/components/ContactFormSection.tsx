@@ -101,8 +101,8 @@ export function ContactFormSection() {
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border-2 border-gray-200 bg-white p-6 text-center shadow-md">
             <Mail className="mx-auto mb-2 h-8 w-8 text-[#0080FF]" />
-            <div className="font-semibold text-gray-900">Email Us</div>
-            <span className="text-sm text-gray-600">ozscholarsacademy@gmail.com</span>
+            <div className="font-semibold text-gray-900">Connect Online</div>
+            <span className="text-sm text-gray-600">@ozscholarsacademy on Instagram</span>
           </div>
           <div className="rounded-xl border-2 border-gray-200 bg-white p-6 text-center shadow-md">
             <MessageSquare className="mx-auto mb-2 h-8 w-8 text-[#00D66B]" />
